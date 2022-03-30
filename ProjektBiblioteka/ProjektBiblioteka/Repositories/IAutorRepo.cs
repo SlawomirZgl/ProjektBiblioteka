@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjektBiblioteka.Repositories
 {
-    interface IAutorRepo
+    public interface IAutorRepo
     {
         void AddAuthor(Autor autor);
         IEnumerable<Autor> GetAuthors();

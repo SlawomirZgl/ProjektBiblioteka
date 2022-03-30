@@ -13,5 +13,7 @@ namespace ProjektBiblioteka.Models
         [MaxLength(25)]
         public string Nazwa { get; set; }
 
+        public List<Ksiazka> Ksiazki { get; set; }
+
     }
 }

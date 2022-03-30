@@ -11,9 +11,10 @@ namespace ProjektBiblioteka.Repositories
         void AddUser(Uzytkownik uzytkownik);
         IEnumerable<Uzytkownik> GetUsers();
         bool DeleteUser(int id);
-        Uzytkownik GetUzytkownik(int id);
+        Uzytkownik GetUser(int id);
         void AddKsiazkatoUser(Ksiazka ksiazka,int id);
-        IEnumerable<Ksiazka> GetBooksOfUser();
+        IEnumerable<Ksiazka> GetBooksOfUser(int id);
+        void RemoveBookFromUser(Ksiazka ksiazka, int id);
 
 
     }

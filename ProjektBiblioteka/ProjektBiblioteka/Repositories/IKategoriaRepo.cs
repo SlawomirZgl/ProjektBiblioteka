@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace ProjektBiblioteka.Repositories
 {
-    interface IKategoriaRepo
+    public interface IKategoriaRepo
     {
         void AddCategory(Kategoria kategoria);
         IEnumerable<Kategoria> GetCategories();
         bool DeleteCategory(int id);
-        Autor GetCategory(int id);
-        
+        Kategoria GetCategory(int id);
+        IEnumerable<Ksiazka> GetBooksOfCategory(int id);
+
     }
 }
