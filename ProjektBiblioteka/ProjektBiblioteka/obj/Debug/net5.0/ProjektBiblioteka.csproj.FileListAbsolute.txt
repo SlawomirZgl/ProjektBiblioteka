@@ -98,7 +98,6 @@ C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBib
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -124,8 +123,6 @@ C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBib
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.Extensions.ObjectPool.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -224,7 +221,6 @@ C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBib
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\System.Resources.Reader.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\System.Resources.Writer.dll
-C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\System.Runtime.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
@@ -429,3 +425,9 @@ C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBib
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\ref\ProjektBiblioteka.dll
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\ProjektBiblioteka.pdb
 C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\ProjektBiblioteka.genruntimeconfig.cache
+C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

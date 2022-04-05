@@ -7319,19 +7319,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zglis\\.nuget\\packages\\": {}
+    "C:\\Users\\Dawid\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektBiblioteka.csproj",
+      "projectUniqueName": "C:\\Users\\Dawid\\Desktop\\szkolka\\PK\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektBiblioteka.csproj",
       "projectName": "ProjektBiblioteka",
-      "projectPath": "D:\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektBiblioteka.csproj",
-      "packagesPath": "C:\\Users\\zglis\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektBiblioteka\\obj\\",
+      "projectPath": "C:\\Users\\Dawid\\Desktop\\szkolka\\PK\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektBiblioteka.csproj",
+      "packagesPath": "C:\\Users\\Dawid\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dawid\\Desktop\\szkolka\\PK\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektBiblioteka\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zglis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dawid\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7406,7 +7406,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
