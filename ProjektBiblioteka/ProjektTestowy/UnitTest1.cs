@@ -67,19 +67,19 @@ namespace ProjektTestowy
                 new Uzytkownik()
                 {
                     UzytkownikId = 1,
-                    Nazwa = " Maciek",
+                    Nazwa = "Maciek",
                     Haslo = "Dobre"
                 },
                  new Uzytkownik()
                 {
                     UzytkownikId = 2,
-                    Nazwa = " Maciek2",
+                    Nazwa = "Maciek2",
                     Haslo = "Dobre2"
                 },
                   new Uzytkownik()
                 {
                     UzytkownikId = 3,
-                    Nazwa = " Maciek2",
+                    Nazwa = "Maciek2",
                     Haslo = "Dobre2"
                 }
 

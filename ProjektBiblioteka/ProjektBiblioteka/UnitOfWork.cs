@@ -13,7 +13,10 @@ namespace ProjektBiblioteka
 
         public UnitOfWork(DbBiblioteka dbBiblioteka)
         {
-            this.dbBiblioteka = dbBiblioteka;
+            if (dbBiblioteka != null)
+                this.dbBiblioteka = dbBiblioteka;
+            else
+                throw new ArgumentNullException(nameof(dbBiblioteka));
         }
         private IAutorRepo _Autor;
         private IKategoriaRepo _Kategoria;
