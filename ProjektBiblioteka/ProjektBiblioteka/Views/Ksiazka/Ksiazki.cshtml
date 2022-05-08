@@ -1,0 +1,53 @@
+﻿@model IEnumerable<ProjektBiblioteka.Models.Ksiazka>
+
+@{
+    ViewData["Title"] = "Ksiazki";
+}
+
+<h1>Ksiazki</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nazwa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Opis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ocena)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ilosc)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nazwa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Opis)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ocena)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ilosc)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.KsiazkaID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.KsiazkaID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.KsiazkaID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

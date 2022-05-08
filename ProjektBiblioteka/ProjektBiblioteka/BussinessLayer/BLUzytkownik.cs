@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace ProjektBiblioteka.BussinessLayer
 {
-    public class BLUztykownik : IUzytkownik
+    public class BLUzytkownik : IUzytkownik
     {
         private readonly IUnitOfWork uow;
 
-        public BLUztykownik(IUnitOfWork uow)
+        public BLUzytkownik(IUnitOfWork uow)
         {
             this.uow = uow;
         }

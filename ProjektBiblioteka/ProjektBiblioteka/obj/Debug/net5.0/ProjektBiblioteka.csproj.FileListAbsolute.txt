@@ -864,3 +864,6 @@ D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\Projek
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\ref\ProjektBiblioteka.dll
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\ProjektBiblioteka.pdb
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\ProjektBiblioteka.genruntimeconfig.cache
+C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\Razor\Views\Autor\Autorzy.cshtml.g.cs
+C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\Razor\Views\Kategoria\Kategorie.cshtml.g.cs
+C:\Users\Dawid\Desktop\szkolka\PK\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\Razor\Views\Ksiazka\Ksiazki.cshtml.g.cs

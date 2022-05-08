@@ -29,7 +29,7 @@ namespace ProjektBiblioteka
             services.AddScoped<IAutor, BLAutor>();
             services.AddScoped<IKategoria, BLKategoria>();
             services.AddScoped<IKsiazka, BLKsiazka>();
-            services.AddScoped<IUzytkownik, BLUztykownik>();
+            services.AddScoped<IUzytkownik, BLUzytkownik>();
 
             services.AddDbContext<DbBiblioteka>();
             services.AddControllersWithViews();
