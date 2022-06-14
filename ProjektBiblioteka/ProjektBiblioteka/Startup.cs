@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 using ProjektBiblioteka.BussinessLayer;
 using ProjektBiblioteka.BussinessLayer.Interfaces;
 using ProjektBiblioteka.Models;
@@ -26,13 +27,18 @@ namespace ProjektBiblioteka
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IUnitOfWork,UnitOfWork>();
             services.AddScoped<IAutor, BLAutor>();
             services.AddScoped<IKategoria, BLKategoria>();
             services.AddScoped<IKsiazka, BLKsiazka>();
             services.AddScoped<IUzytkownik, BLUzytkownik>();
-
+            
             services.AddDbContext<DbBiblioteka>();
             services.AddControllersWithViews();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v2", new OpenApiInfo { Title = "MVCCallWebAPI", Version = "v2" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,11 +56,14 @@ namespace ProjektBiblioteka
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseSwagger();
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v2/swagger.json", "MVCCallWebAPI");
+            });
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
