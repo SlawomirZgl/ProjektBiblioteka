@@ -13,6 +13,18 @@ namespace ProjektBiblioteka.Repositories
         public UzytkownikRepo(DbBiblioteka database)
         {
             _database = database;
+            if (!database.Uzytkownicy.Any())
+            {
+                database.AddRange(new List<Uzytkownik>
+                {
+                    new Uzytkownik {Nazwa = "Uzytkownik 1", Haslo ="Haslo1"},
+                    new Uzytkownik {Nazwa = "Uzytkownik 2", Haslo ="Haslo2"},
+                    new Uzytkownik {Nazwa = "Uzytkownik 3", Haslo ="Haslo3"},
+                    new Uzytkownik {Nazwa = "Uzytkownik 4", Haslo ="Haslo4"},
+                    new Uzytkownik {Nazwa = "Uzytkownik 5", Haslo ="Haslo5"},
+                });
+            }
+            database.SaveChanges();
         }
 
         public void AddKsiazkatoUser(Ksiazka ksiazka, int id)

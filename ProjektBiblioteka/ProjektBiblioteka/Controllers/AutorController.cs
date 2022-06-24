@@ -10,14 +10,19 @@ namespace ProjektBiblioteka.Controllers
     public class AutorController : Controller
     {
 
-        BLAutor BLautorzy;
+        IAutor _autor;
+
+        public AutorController (IAutor autor)
+        {
+            _autor = autor;
+        }
         public IActionResult Index()
         {
             return View();
         }
         public ActionResult Autorzy()
         {
-            var autorzy = from a in BLautorzy.GetAuthors()
+            var autorzy = from a in _autor.GetAuthors()
                           orderby a.AutorId
                           select a; 
             return View(autorzy);

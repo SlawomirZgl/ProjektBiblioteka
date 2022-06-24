@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjektBiblioteka.BussinessLayer.Interfaces
 {
-    interface IKategoria
+    public interface IKategoria
     {
         Kategoria UpsertCategory(Kategoria category);
         IEnumerable<Kategoria> GetCategories();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjektBiblioteka.BussinessLayer.Interfaces
 {
-    interface IUzytkownik
+    public interface IUzytkownik
     {
         Uzytkownik UpsertUser(Uzytkownik user);
         IEnumerable<Uzytkownik> GetUsers();

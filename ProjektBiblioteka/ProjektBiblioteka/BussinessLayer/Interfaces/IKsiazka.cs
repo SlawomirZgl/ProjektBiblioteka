@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjektBiblioteka.BussinessLayer.Interfaces
 {
-    interface IKsiazka
+    public interface IKsiazka
     {
         Ksiazka UpsertBook(Ksiazka book);
         IEnumerable<Ksiazka> GetBooks();

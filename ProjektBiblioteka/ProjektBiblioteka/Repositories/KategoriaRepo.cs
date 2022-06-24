@@ -13,6 +13,18 @@ namespace ProjektBiblioteka.Repositories
         public KategoriaRepo(DbBiblioteka database)
         {
             _database = database;
+            if (!database.Kategorie.Any())
+            {
+                database.AddRange(new List<Kategoria>
+                {
+                    new Kategoria{Nazwa = "Kategoria 1"},
+                    new Kategoria{Nazwa = "Kategoria 2"},
+                    new Kategoria{Nazwa = "Kategoria 3"},
+                    new Kategoria{Nazwa = "Kategoria 4"},
+                    new Kategoria{Nazwa = "Kategoria 5"}
+                });
+            }
+            database.SaveChanges();
         }
 
         public void AddCategory(Kategoria kategoria)

@@ -12,7 +12,20 @@ namespace ProjektBiblioteka.Repositories
 
         public AutorRepo(DbBiblioteka database)
         {
+
             _database = database;
+            if (!_database.Autorzy.Any())
+            {
+                _database.AddRange(new List<Autor>
+                {
+                    new Autor{Imie = "AImie 1", Nazwisko = "ANazwisko 1"},
+                    new Autor{Imie = "AImie 2", Nazwisko = "ANazwisko 2"},
+                    new Autor{Imie = "AImie 3", Nazwisko = "ANazwisko 3"},
+                    new Autor{Imie = "AImie 4", Nazwisko = "ANazwisko 4"},
+                    new Autor{Imie = "AImie 5", Nazwisko = "ANazwisko 5"},
+                });
+            }
+            _database.SaveChanges();
         }
 
         public void AddAuthor(Autor autor)

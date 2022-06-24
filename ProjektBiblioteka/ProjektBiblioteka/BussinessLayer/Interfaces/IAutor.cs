@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjektBiblioteka.BussinessLayer
 {
-    interface IAutor
+    public interface IAutor
     {
         Autor UpsertAutor(Autor author);
         IEnumerable<Autor> GetAuthors();
