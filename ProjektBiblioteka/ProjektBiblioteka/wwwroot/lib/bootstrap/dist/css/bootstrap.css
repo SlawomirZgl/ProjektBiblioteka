@@ -4170,14 +4170,31 @@ input[type="button"].btn-block {
 }
 
 .navbar-brand {
-  display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  line-height: inherit;
-  white-space: nowrap;
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 4rem;
+    line-height: inherit;
+    white-space: nowrap;
+    font-family: 'Comic Sans MS';
 }
+.navbar-brand-capital-letter {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    font-size: 8rem;
+    line-height: inherit;
+    white-space: nowrap;
+    font-family: 'Comic Sans MS';
+}
+.background {
+    background: linear-gradient( 140deg, rgba(105, 240, 174, 0.8) 0%,rgba(123, 31, 162, 0.5) 100% );
+}
+.navbar-background {
+    background: linear-gradient( 140deg, rgba(123, 31, 162, 1) 0%, rgba(105, 240, 174, 0.7) 100% );    
+}
+
 
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -4190,10 +4207,13 @@ input[type="button"].btn-block {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
+  margin-left: 10px;
+  margin-top: 20px;
   list-style: none;
 }
 
 .navbar-nav .nav-link {
+  margin-left: 10px;
   padding-right: 0;
   padding-left: 0;
 }

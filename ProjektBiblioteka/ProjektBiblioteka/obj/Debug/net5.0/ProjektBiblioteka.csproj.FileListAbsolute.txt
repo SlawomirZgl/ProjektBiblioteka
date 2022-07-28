@@ -435,7 +435,6 @@ D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\Projek
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\ProjektBiblioteka.runtimeconfig.json
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\ProjektBiblioteka.runtimeconfig.dev.json
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\ProjektBiblioteka.dll
-D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\ref\ProjektBiblioteka.dll
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\ProjektBiblioteka.pdb
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Antiforgery.dll
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -841,7 +840,6 @@ D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\Projek
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\ProjektBiblioteka.RazorAssemblyInfo.cache
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\ProjektBiblioteka.RazorAssemblyInfo.cs
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\staticwebassets\ProjektBiblioteka.StaticWebAssets.Manifest.cache
-D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\staticwebassets\ProjektBiblioteka.StaticWebAssets.xml
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\scopedcss\bundle\ProjektBiblioteka.styles.css
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\ProjektBiblioteka.TagHelpers.input.cache
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\ProjektBiblioteka.TagHelpers.output.cache
@@ -919,3 +917,4 @@ D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\Razor\
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\Razor\Views\Kategoria\Kategorie.cshtml.g.cs
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\Razor\Views\Ksiazka\Ksiazki.cshtml.g.cs
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\Razor\Views\Uzytkownik\Uzytkownicy.cshtml.g.cs
+D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\refint\ProjektBiblioteka.dll

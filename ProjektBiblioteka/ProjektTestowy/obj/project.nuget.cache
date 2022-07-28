@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "a2iIjVt9pmvJ23UUddCU03i3NoMWWhG6vIMTs0F5nl+O163X+nmw0VQdm9OnRNn88D1bi6no9KRKt/wwgknpUw==",
+  "dgSpecHash": "wP0eusuuF1YP7qPtLeghrkGUTRUSoBjI5ZDK1RFp2VYZki/SOM7v/dxgBfYxNZ2bCKvxLJngDsYrtkJ604hJMA==",
   "success": true,
   "projectFilePath": "D:\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektTestowy\\ProjektTestowy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zglis\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\zglis\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\zglis\\.nuget\\packages\\bootstrap\\5.1.3\\bootstrap.5.1.3.nupkg.sha512",
     "C:\\Users\\zglis\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\zglis\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\zglis\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
