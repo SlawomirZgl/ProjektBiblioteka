@@ -27,6 +27,11 @@ namespace ProjektBiblioteka.Controllers
                           select a;
             return View(ksiazki);
         }
+        public ActionResult Details(int id)
+        {
+            var ksiazka = _ksiazka.GetBooks().Where(k => k.KsiazkaID == id).FirstOrDefault();
 
+            return View(ksiazka);            
+        }
     }
 }

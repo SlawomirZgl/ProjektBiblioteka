@@ -918,3 +918,4 @@ D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\Razor\
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\Razor\Views\Ksiazka\Ksiazki.cshtml.g.cs
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\Razor\Views\Uzytkownik\Uzytkownicy.cshtml.g.cs
 D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\refint\ProjektBiblioteka.dll
+D:\ProjektBiblioteka\ProjektBiblioteka\ProjektBiblioteka\obj\Debug\net5.0\Razor\Views\Ksiazka\Details.cshtml.g.cs

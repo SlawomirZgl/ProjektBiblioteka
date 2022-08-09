@@ -1,0 +1,61 @@
+﻿@model ProjektBiblioteka.Models.Ksiazka
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Ksiazka</h4>
+    <hr />
+
+    <div class="row">
+        <div class="col-sm">
+            <img src="https://i.imgur.com/UIg7vKK.jpg" width="400">
+        </div>
+        <div class="row">
+                <div class="col-sm" style="font-size:xx-large">
+                @Html.DisplayFor(model => model.Nazwa)
+            </div>
+        </div>
+
+        <div class = "col-sm">
+        @Html.DisplayNameFor(model => model.Opis)
+        </div>
+        <div class = "col-sm">
+            @Html.DisplayFor(model => model.Opis)
+        </div>
+    </div>
+   
+    <dl class="row">
+        <dd class = "col-sm-2">
+                
+        </dd>
+        <dd class = "col-sm-10" >
+            @Html.DisplayFor(model => model.Nazwa)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Opis)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Opis)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ocena)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ocena)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ilosc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ilosc)
+        </dd>
+    </dl>
+</div>
+<div>
+    @*<a asp-action="Edit" asp-route-id="@Model.KsiazkaID">Edit</a> |*@
+    <a asp-action="Ksiazki">Back to List</a>
+</div>
