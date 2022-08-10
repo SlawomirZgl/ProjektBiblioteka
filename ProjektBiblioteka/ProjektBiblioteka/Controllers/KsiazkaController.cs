@@ -21,21 +21,15 @@ namespace ProjektBiblioteka.Controllers
         {
             return View();
         }
-        public ActionResult Ksiazki()
+        public ActionResult Ksiazki(string search)
         {
-            var ksiazki = from a in _ksiazka.GetBooks()
-                          orderby a.KsiazkaID
+            var ksiazki = from a in _ksiazka.GetBooks() 
                           select a;
+            if (!String.IsNullOrEmpty(search))
+            {
+                ksiazki = ksiazki.Where(s => s.Nazwa.Contains(search));
+            }
             return View(ksiazki);
-        }
-        [HttpGet]
-        public ActionResult GetListOfBooks()
-        {
-            var ksiazki = from a in _ksiazka.GetBooks()
-                          orderby a.KsiazkaID
-                          select a;
-            ViewBag.ksiazki = ksiazki;
-            return View();
         }
         public ActionResult Details(int id)
         {
