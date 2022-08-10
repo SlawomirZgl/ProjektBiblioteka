@@ -27,5 +27,13 @@ namespace ProjektBiblioteka.Controllers
                           select a; 
             return View(autorzy);
         }
+        public ActionResult Details(int id)
+        {
+            var autor = _autor.GetAuthors().Where(k => k.AutorId == id).FirstOrDefault();
+
+            return View(autor);
+        }
+
     }
+    
 }

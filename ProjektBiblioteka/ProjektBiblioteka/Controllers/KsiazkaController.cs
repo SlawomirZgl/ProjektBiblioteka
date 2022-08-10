@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProjektBiblioteka.BussinessLayer;
 using ProjektBiblioteka.BussinessLayer.Interfaces;
+using ProjektBiblioteka.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,15 @@ namespace ProjektBiblioteka.Controllers
                           orderby a.KsiazkaID
                           select a;
             return View(ksiazki);
+        }
+        [HttpGet]
+        public ActionResult GetListOfBooks()
+        {
+            var ksiazki = from a in _ksiazka.GetBooks()
+                          orderby a.KsiazkaID
+                          select a;
+            ViewBag.ksiazki = ksiazki;
+            return View();
         }
         public ActionResult Details(int id)
         {
