@@ -4,14 +4,24 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ProjektBiblioteka</title>
+    
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+
+    <style>
+        .navbar-brand-capital-letter {
+            font-size: 5rem;
+        }
+        .logo-letters {
+            font-size: 3rem;
+        }
+    </style>
 </head>
 <body class="background">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light navbar-background border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><div class="navbar-brand-capital-letter">B</div>iblioteka.pl</a>
+                <a class="navbar-brand logo-letters" asp-area="" asp-controller="Home" asp-action="Index"><div class="navbar-brand-capital-letter">B</div>iblioteka.pl</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

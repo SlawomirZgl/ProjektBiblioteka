@@ -15,8 +15,8 @@ namespace ProjektBiblioteka.Models
         public DbSet<Kategoria> Kategorie { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data source=C:\\Users\\Dawid\\Desktop\\szkolka\\PK\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektBiblioteka\\Models\\DataBase.db");
-            //optionsBuilder.UseSqlite("Data source=D:\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektBiblioteka\\Models\\DataBase.db");
+            //optionsBuilder.UseSqlite("Data source=C:\\Users\\Dawid\\Desktop\\szkolka\\PK\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektBiblioteka\\Models\\DataBase.db");
+            optionsBuilder.UseSqlite("Data source=D:\\ProjektBiblioteka\\ProjektBiblioteka\\ProjektBiblioteka\\Models\\DataBase.db");
             base.OnConfiguring(optionsBuilder);
         }
 
