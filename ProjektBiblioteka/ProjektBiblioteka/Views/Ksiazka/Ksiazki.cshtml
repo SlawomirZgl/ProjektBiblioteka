@@ -20,6 +20,12 @@
     }
 </style>
 
+@using (Html.BeginForm())
+{
+    <p>
+        Wyszukaj po nazwie: @Html.TextBox("search")  
+        <input type="submit" value="szukaj" /></p>
+}
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
