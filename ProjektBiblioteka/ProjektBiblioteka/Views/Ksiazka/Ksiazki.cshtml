@@ -14,7 +14,12 @@
 
     a:active { color: black; text-decoration: none; }
 </style>
-
+@using (Html.BeginForm())
+{
+    <p>
+        Wyszukaj po nazwie: @Html.TextBox("search")  
+        <input type="submit" value="szukaj" /></p>
+}
 <div class="row">
 @foreach (var item in Model) {
     <a asp-action="Details" asp-route-id="@item.KsiazkaID">
